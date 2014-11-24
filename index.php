@@ -172,12 +172,12 @@ text-transform:uppercase;
   </tr>
 
 <?php 
-$dir0 = "\\\\192.168.0.253\\users\\MVASQUEZ\\BOLETAS\\"; //CARPETA BOLETAS SIN PROCESAR Z:\gestor\enviados
+
 $dir1 = "./escaneados/"; //CARPETA ESCANEADOS
 $dir2 = "./firmar/"; //CARPETA FIRMAR
 $dir3 = "./firmados/"; //CARPETA FIRMADOS
 //$dir4 = "./enviados/"; //CARPETA ENVIADOS POR CORREO ELECTRÓNICO
-$directorio0=opendir($dir0); 
+ 
 $directorio1=opendir($dir1); 
 $directorio2=opendir($dir2); 
 $directorio3=opendir($dir3); 
@@ -185,16 +185,6 @@ $directorio3=opendir($dir3);
 
 
 
-while ($archivo = readdir($directorio0)){ 
-  if($archivo=='.' or $archivo=='..'){ 
-    echo ""; 
-  }else { 
-
-    if(file_exists($dir0.$archivo)) {
-      echo $archivo;
-    } 
-  }
-}
 
 
 
