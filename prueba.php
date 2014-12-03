@@ -5,6 +5,11 @@
 //Agregando mas comentarios, para ver como actualiza el archivo en local
 //Para sincronizar el archivo local con el remoto modificado en github (online)
 //en linea de comando en el pc local hacer un git fetch y luego un git merge origin
+//esos 2 comandos se pueden resumir en git push
+//ahora estoy modificando en local y enviaré los cambios a github (repositorio remoto en internet)
+//en local los comando son git add -A   y   luego git commit -m "Mensaje referencial al cambio"
+// estos 2 comandos se resumen en git commit -am "Mensaje referencial al cambio"
+// y finalmente para enviar los cambios el comando es git push -u origin master
 
 require_once('fpdf.php');
 require_once('fpdi.php');
