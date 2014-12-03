@@ -139,7 +139,7 @@ $pagecount = $pdf->setSourceFile($archivo);
 
 //$pdf->addPage();
 //$pdf->useTemplate($tplidx, 10, 10, 90);
-$pdf->Image('imagen/barcode.png',120,270,50);             
+$pdf->Image('imagen/barcode.png',160,280,50);             
 imagedestroy($im);
 $destino='firmar/'.$code.'.pdf';
 $pdf->Output($destino, 'F');
