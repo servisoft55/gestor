@@ -1,6 +1,7 @@
 <?php
 
-
+//HACIENDO PRUEBAS PARA AGREGAR HOJA EN BLANCO AL FINAL DEL DUCUMENTO PDF
+//MODIFICADO DIRECTAMENTE DESDE GITHUB (Para ver si al hacer fetch en la consola en local se actualiza)
 require_once('fpdf.php');
 require_once('fpdi.php');
 
