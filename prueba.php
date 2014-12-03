@@ -2,6 +2,10 @@
 
 //HACIENDO PRUEBAS PARA AGREGAR HOJA EN BLANCO AL FINAL DEL DUCUMENTO PDF
 //MODIFICADO DIRECTAMENTE DESDE GITHUB (Para ver si al hacer fetch en la consola en local se actualiza)
+//Agregando mas comentarios, para ver como actualiza el archivo en local
+//Para sincronizar el archivo local con el remoto modificado en github (online)
+//en linea de comando en el pc local hacer un git fetch y luego un git merge origin
+
 require_once('fpdf.php');
 require_once('fpdi.php');
 
