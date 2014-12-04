@@ -11,6 +11,7 @@
 // estos 2 comandos se resumen en git commit -am "Mensaje referencial al cambio"
 // y finalmente para enviar los cambios el comando es git push -u origin master
 // ahora modificado desde la casa.
+// se modificó el nombre de usuario para mi notebook i7
 
 require_once('fpdf.php');
 require_once('fpdi.php');
