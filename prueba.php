@@ -12,6 +12,9 @@
 // y finalmente para enviar los cambios el comando es git push -u origin master
 // ahora modificado desde la casa.
 // se modificó el nombre de usuario para mi notebook i7
+// Para recibir los cambios en local en el pc del trabajo el comando es git fetch   y   luego git merge origin master 
+
+
 
 require_once('fpdf.php');
 require_once('fpdi.php');
